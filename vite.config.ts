@@ -7,7 +7,6 @@ export default defineConfig({
     server: {
         port: 10000,
         host: true,
-        //allow all hosts to access the server
-        allowedHosts: ['*'],
+        allowedHosts: ['beta-zux1.onrender.com'],
     },
 });
